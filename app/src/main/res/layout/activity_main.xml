@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/my_drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start">
+
+            <ExpandableListView
+                android:id="@+id/expandableListView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:choiceMode="multipleChoice"
+                android:groupIndicator="@null" />
+        </com.google.android.material.navigation.NavigationView>
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+    </FrameLayout>
+
+</RelativeLayout>

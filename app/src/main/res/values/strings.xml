@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PracticeProject</string>
+    <string name="welcome_to">Welcome To <b>RIZONA,</b></string>
+    <string name="terms_condition">By pressing "Submit" you are agree to<br>\n our </br><font color='#EABE3C'><u><i>terms and conditions</i> </u></font></string>
+    <string name="setting">Setting</string>
+    <string name="account">Account</string>
+    <string name="laws">Laws</string>
+    <string name="nav_open">open</string>
+    <string name="nav_close">close</string>
+    <string-array name="string_laws">
+        <item>Criminal Law</item>
+        <item>Criminal Law</item>
+        <item>Criminal Law</item>
+        <item>Criminal Law</item>
+        <item>Criminal Law</item>
+        <item>Criminal Law</item>
+        <item>Criminal Law</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
